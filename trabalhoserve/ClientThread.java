@@ -24,6 +24,16 @@ class ClientThread implements Runnable {
             gab[2]="C";
             gab[3]="B";
             gab[4]="D";
+            gab[5]="D";
+            gab[6]="A";
+            gab[7]="A";
+            gab[8]="C";
+            gab[9]="B";
+            gab[10]="A";
+            gab[11]="D";
+            gab[12]="B";
+            gab[13]="B";
+            gab[14]="D";
             while(questoes <= 15){
             if ((inputLine = in.readLine()) != null) {
                 if (firstinput!=1) {
