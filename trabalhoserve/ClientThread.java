@@ -18,7 +18,7 @@ class ClientThread implements Runnable {
              PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true)) {
 
             String inputLine;
-            String[] gab = new String[5];
+            String[] gab = new String[15];
             gab[0]="A";
             gab[1]="B";
             gab[2]="C";
